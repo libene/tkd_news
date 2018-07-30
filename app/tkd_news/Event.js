@@ -17,7 +17,7 @@ export default class Event extends Component {
               </Text>
               <Text style={styles.place} numberOfLines={1} ellipsizeMode ={'tail'}>
                 {this.props.place}
-              </Text>              
+              </Text>
             </View>
           </View>
         );
